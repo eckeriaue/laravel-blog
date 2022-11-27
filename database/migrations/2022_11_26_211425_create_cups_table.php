@@ -15,6 +15,7 @@ return new class extends Migration
     {
         Schema::create('cups', function (Blueprint $table) {
             $table->id();
+            $table->string('tes');
             $table->boolean("has_knob");
             $table->boolean("has_sugar");
             $table->boolean("is_fill");
